@@ -9,7 +9,7 @@ http://localhost:5000/image/create-image
 ```
 ###### request:
 ```
-fetch("http://localhost:5000/image/create-image",{
+fetch("http://localhost:5000/image/create",{
     method:"POST",
     body:{
         "prompt":"A dog in boot",
