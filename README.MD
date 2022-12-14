@@ -18,6 +18,12 @@ fetch("http://localhost:5000/image/create-image",{
     }
 })
 ```
+prompt -> user search query words 
+n-> number of images to be generated
+size-> sizes of the image to be generated. only 3 sizes availabe 
+    -large
+    -small
+any other size default to small. it  should be in lowercase
 ###### response:
 ```
 {
