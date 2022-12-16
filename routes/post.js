@@ -12,7 +12,6 @@ const openai = new OpenAIApi(config);
 // Create an image route
 router.post('/create', async (req, res) => {
   const { query, number, size } = req.body;
-
   try {
     const response = await openai.createImage({
       prompt: query,
