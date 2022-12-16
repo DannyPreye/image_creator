@@ -12,14 +12,14 @@ http://localhost:5000/image/create-image
 fetch("http://localhost:5000/image/create",{
     method:"POST",
     body:{
-        "prompt":"A dog in boot",
-        "n":1,
+        "query":"A dog in boot",
+        "number":1,
         "size":"medium"
     }
 })
 ```
-prompt -> user search query words 
-n-> number of images to be generated
+query -> user search query words 
+number-> number of images to be generated
 size-> sizes of the image to be generated. only 3 sizes availabe 
     -large
     -small
